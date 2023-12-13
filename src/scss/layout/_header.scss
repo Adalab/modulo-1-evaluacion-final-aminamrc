@@ -1,0 +1,73 @@
+.header {
+  
+  background-image: url("../images/cover.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: 100%;
+ 
+
+
+  
+}
+
+.ico-menu {
+  width: 45px;
+  height: 45px;
+  padding:10px ;
+  background-color: #f26002 ;
+  
+  
+  
+  
+}
+
+.texto {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  color: white;
+  padding: 280px 100px 90px 120px;
+  gap:20px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight:lighter;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: center;
+  }
+
+a {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+}
+
+/* text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: RobotoSlab;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: center;*/

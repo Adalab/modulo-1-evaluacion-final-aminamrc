@@ -1,0 +1,48 @@
+.section2 {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 25px;
+
+}
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text2 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.rectangulo2 { 
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    width: fit-content;
+    border-radius: 20px;
+    width: fit-content;
+    margin:auto;
+   
+   a { 
+    padding: 7px;
+    text-decoration: none;
+    color: white;}
+}
