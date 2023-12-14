@@ -12,17 +12,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(740px,-15px);
     padding:5px;
-    @media (max-width:768px) {
+    transform: translate(580px,-15px);
+
+    @media (min-width:768px) {
         
         transform: translate(350px,-15px);
       }
-      @media (max-width:320px) {
+      @media (min-width:320px) {
         
-        transform: translate (350px,-15px);
-      }
+        transform: translate(150px,-15px);
     
+}
 }
 
 .menu_footer {
@@ -44,7 +45,7 @@
       @media (max-width:320px) {
         
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap:10px;
         font-size: smaller;
       }
