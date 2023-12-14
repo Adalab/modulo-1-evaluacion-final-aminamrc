@@ -1,6 +1,7 @@
 .section1 {
     width: 100%;
-    background-color: white;
+    background-color: $white;
+    
 }
 
 .text1 {
@@ -11,22 +12,39 @@
     text-align: left;
     padding: 100px;
     gap:10px;
+
+    @media (max-width:768px) {
+        
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        font-size: smaller;
+      }
+      @media (max-width:320px) {
+        
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        font-size: smaller;
+      }
+
+    
     
 
     h2 {
         font-size: 12px;
-        color: orange;
+        color: $bright-orange;
         font-weight: lighter;
     }
 
     h3 {
         font-size: 20px;
-        color: black;
+        color: $black;
         font-weight:bold ;
     }
 
     p {
-        color: gray;
+        color: $greyish-brown;
     }
     
 }
@@ -34,12 +52,13 @@
 
 
 .rectangulo1 {
-    border: solid 2px orange;
+    border: solid 2px $bright-orange;
     border-radius: 20px;
     width: fit-content;
     a {
     padding: 20px;
     text-decoration: none;
-    color: orange;
+    color: $bright-orange;
 }
 }
+

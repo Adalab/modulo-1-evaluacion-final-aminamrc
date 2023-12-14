@@ -1,20 +1,22 @@
 .section2 {
     width: 100%;
-    background-color: whitesmoke;
+    background-color: $white-two;
     padding: 20px;
     display: flex;
     flex-direction: column;
     padding: 50px;
     gap: 25px;
 
+
 }
 
-h4 {
+.title2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: $black;
 }
 
 
@@ -23,6 +25,21 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: $black;
+    @media (max-width:768px) {
+        
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        font-size: smaller;
+      }
+      @media (max-width:320px) {
+        
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        font-size: smaller;
+      }
 }
 
 .text2 {
@@ -35,7 +52,7 @@ h4 {
 .rectangulo2 { 
     display: flex;
     justify-content: center;
-    background-color: chocolate;
+    background-color: $bright-orange;
     width: fit-content;
     border-radius: 20px;
     width: fit-content;
@@ -44,5 +61,7 @@ h4 {
    a { 
     padding: 7px;
     text-decoration: none;
-    color: white;}
+    color: $white;}
 }
+
+

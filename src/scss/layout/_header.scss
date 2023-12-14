@@ -1,21 +1,26 @@
 .header {
   
   background-image: url("../images/cover.jpeg");
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-size: 100%;
- 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: var(--font-family);
+
+  
+  }
 
 
   
-}
+  
+
 
 .ico-menu {
   width: 45px;
   height: 45px;
   padding:10px ;
-  background-color: #f26002 ;
-  
+  background-color: $bright-orange ;
+  position:fixed;
   
   
   
@@ -25,7 +30,7 @@
   display: flex;
   flex-direction:column;
   align-items: center;
-  color: white;
+  color: $white;
   padding: 280px 100px 90px 120px;
   gap:20px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -38,6 +43,12 @@ h1 {
   line-height: 1.32;
   letter-spacing: normal;
   text-align: center;
+  @media (max-width:768px) {
+    font-size: 35px;
+  }
+  @media (max-width:350px) {
+    font-size: 20px;
+  }
 }
 
 p {
@@ -53,7 +64,7 @@ p {
 a {
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: var(--white);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -62,12 +73,3 @@ a {
 
 }
 
-/* text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  font-family: RobotoSlab;
-  font-size: 40px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.32;
-  letter-spacing: normal;
-  text-align: center;*/
